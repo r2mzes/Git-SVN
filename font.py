@@ -16,8 +16,14 @@ class FontLoader:
  (  ) 
   )(  
  (__) 
-'''		
-return font
+'''		font.letters['T'] = r'''
+ ____ 
+(_  _)
+  )(  
+ (__) 
+'''
+     
+		return font
 
 
 class Font:
