@@ -4,7 +4,8 @@ def getText():
     return 'Git'
 
 class Font:
-    pass
+    def __init__(self):
+        self.letters = {}
 
 class FontLoader:
     def loadFont(self, directory):
