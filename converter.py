@@ -1,3 +1,5 @@
+from font import Font, FontLoader
+
 def getText():
     return 'Git'
 
