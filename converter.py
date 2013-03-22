@@ -10,8 +10,12 @@ def main():
     drawer.setFont(font)
     drawer.draw(text)
 
-def getText():
-	return sys.argv[0]
+ def getText():
+    if len(sys.argv) != 1:
+        print "Bad arguments"
+        sys.exit(1)
+
+    return sys.argv[0]
 
 if __name__ == '__main__':
     main()
