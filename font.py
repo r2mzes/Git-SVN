@@ -10,7 +10,7 @@ class FontLoader:
 ( (_ \
  \___/
 '''
-
+		
 		font.letters['I'] = r'''
   __  
  (  ) 
@@ -22,7 +22,7 @@ class FontLoader:
   )(  
  (__) 
 '''
-     
+		
 		return font
 
 
